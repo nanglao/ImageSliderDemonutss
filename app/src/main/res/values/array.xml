@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="textcategory">
+        <item>Product</item>
+        <item> Women’sClothing</item>
+        <item> Kid’sClothing</item>
+        <item> BagsAndShoes</item>
+
+    </array>
+</resources>
+

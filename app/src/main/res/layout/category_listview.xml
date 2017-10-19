@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/layoutCategoryList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/txtBestDeal"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bestdeal"
+        android:gravity="center" />
+
+    <ImageButton
+        android:id="@+id/message"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:layout_gravity="right"
+        android:src="@drawable/msg" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/categorylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>

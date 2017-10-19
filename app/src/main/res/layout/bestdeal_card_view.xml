@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bestdeal_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgBestDealList"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorRed"
+        android:src="@drawable/album4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtproductName"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="From Tianjin Headset Earbuds Headphone "
+            />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="From Tianjin"
+            />
+
+        <TextView
+            android:id="@+id/txtOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="Minimun Order 6 Pcs"/>
+
+
+        <LinearLayout
+            android:layout_below="@+id/txtOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/txtprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ks-16,500    "
+                />
+
+            <TextView
+                android:id="@+id/txtsold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28 Sold"
+                />
+
+            <ImageButton
+                android:id="@+id/imgDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
